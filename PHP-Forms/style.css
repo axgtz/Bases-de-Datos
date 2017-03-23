@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -mx-box-sizing: border-box;
+}
+
+:invalid {
+    border-color: #e88;
+    box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+}
+
+:required {
+    border-color: #88a;
+    box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+body {
+    background-color: #ecf0f1;
+}
+h1{
+    margin-bottom: 60px;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+input {
+    
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 300px;
+    min-height: 30px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -mx-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+input:invalid {
+    background-color: #f0dddd;
+}
+
+input[type=submit] {
+    background: none;
+    padding: 10px;
+}
+
+input:hover, input:focus{
+    border-color: 1px solid #c9c9c9;
+      box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+    -mx-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+}
+
+.form label {
+    color: #999999;
+    margin-left: 10px;
+}
+
+.submit input {
+    width: 100px;
+    height: 40px;
+}
