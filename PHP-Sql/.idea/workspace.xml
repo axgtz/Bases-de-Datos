@@ -18,10 +18,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <marker date="1490289405790" expanded="true" signature="601:623" ph="select * fro... PRODUCTO" />
+                <marker date="1490290929743" expanded="true" signature="603:625" ph="select * fro... PRODUCTO" />
               </folding>
             </state>
           </provider>
@@ -45,10 +45,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1284" />
-    <option name="height" value="776" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -118,15 +117,15 @@
       <updated>1490288086975</updated>
       <workItem from="1490288089329" duration="680000" />
       <workItem from="1490288811337" duration="601000" />
+      <workItem from="1490289865990" duration="763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1281000" />
+    <option name="totallyTimeSpent" value="2044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1284" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1284" height="767" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2429022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -163,7 +162,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490289405790" expanded="true" signature="601:623" ph="select * fro... PRODUCTO" />
+            <marker date="1490290929743" expanded="true" signature="603:625" ph="select * fro... PRODUCTO" />
           </folding>
         </state>
       </provider>
@@ -172,10 +171,10 @@
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
-            <marker date="1490289405790" expanded="true" signature="601:623" ph="select * fro... PRODUCTO" />
+            <marker date="1490290929743" expanded="true" signature="603:625" ph="select * fro... PRODUCTO" />
           </folding>
         </state>
       </provider>

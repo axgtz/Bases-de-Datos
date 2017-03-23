@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-    erro_reporting(E_ALL);
+    //erro_reporting(E_ALL);
     ini_set('display_errors', 1);
     $enlace = mysqli_connect("127.0.0.1","root","","prueban");
     if($enlace)
