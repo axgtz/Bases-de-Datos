@@ -9,7 +9,7 @@
 
 <body>
   <h1>Supa Form!!</h1>
-    <form action="php/site2.php" method="post" oninput="total.value = (nights.valueAsNumber * 50) + ((guests.valueAsNumber - 1) * 10)">
+    <form action="site2.php" method="post" oninput="total.value = (nights.valueAsNumber * 50) + ((guests.valueAsNumber - 1) * 10)">
             <!--Forms-->
             <label>Nombre: </label>
             <input type="text" name="yourname" id="yourname" placeholder="Joe Doe" required/>
@@ -23,6 +23,10 @@
             <label>Confirm Email: </label>
             <input type="email" name="emailCon" oninput="check(this)" placeholder="joe@gmail.com" required/>
 
+            <label>Colo Fav: </label>
+            <input type="color" name="color" placeholder="Turbo Rojo" required/>
+
+
             <label>Arrival Date: </label>
             <input type="date" name="arrDate" id="arrDate" name="arrivalDate" placeholder="Write Here" required/>
 
@@ -34,7 +38,7 @@
 
             <label>Estimated Total: </label>
 
-            <output id="total">¢50</output>.00
+            <output type="number" name="total" id="total">¢50</output>.00
             <br><br>
 
             <input type="submit" value="submit" />
