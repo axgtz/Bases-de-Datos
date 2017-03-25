@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Pag 1</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Alejandro Guti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -23,18 +25,20 @@
             <label>Confirm Email: </label>
             <input type="email" name="emailCon" oninput="check(this)" placeholder="joe@gmail.com" required/>
 
-            <label>Colo Fav: </label>
-            <input type="color" name="color" placeholder="Turbo Rojo" required/>
+            <label>Color Fav: </label>
+            <input type="color" name="color" value="#ff0000" required/>
 
+            <label>Fecha de Nacimiento: </label>
+            <input type="date" name="birthday" id="birthday" placeholder="Write Here" required/>
 
-            <label>Arrival Date: </label>
-            <input type="date" name="arrDate" id="arrDate" name="arrivalDate" placeholder="Write Here" required/>
+            <label>Date of arrival: </label>
+            <input type="date" name="arrDate" id="arrDate" placeholder="Write Here" required/>
 
             <label>Number of Nights: (Rooms = ¢50 night)</label>
             <input type="number" name="nights" id="nights" value="1" min="1" max="31" placeholder="Write Here" required/>
 
             <label>Number of Guests: (each additional guest adds $10.00 per night)</label>
-            <input type="number" name="guests" id="guests" name="guests" value="1" min="1" max="4" required/>
+            <input type="number" name="guests" id="guests"  value="1" min="1" max="4" required/>
 
             <label>Estimated Total: </label>
 
