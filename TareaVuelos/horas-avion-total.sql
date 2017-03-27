@@ -1,4 +1,4 @@
-use mydb;
+use aeropuerto;
 SELECT 
     matricula, fecha, SUM(duracion) AS Horas_de_Vuelo
 FROM

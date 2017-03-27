@@ -1,13 +1,13 @@
-use mydb;
-SELECT 
-    codigo, fecha, SUM(duracion) AS Horas_de_Vuelo
+use aeropuerto;
+SELECT
+    nombre AS Nombre_Piloto, SUM(duracion) AS Horas_de_Vuelo
 FROM
-    (SELECT 
-        numero_vuelo, duracion, fecha, codigo
-    FROM
-        vuelo
-    CROSS JOIN tripulacion CROSS JOIN tripulacion_has_vuelo
+	vuelo
+		NATURAL join
+	tripulacion_has_vuelo
+		NATURAL join
+	tripulacion
     WHERE
-        codigo = TRIPULACION_codigo) AS temp WHERE MONTH(fecha) = 1
+		MONTH(fecha) = 1 && cargo = 'Piloto'
 GROUP BY codigo;
 
