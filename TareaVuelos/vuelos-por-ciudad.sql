@@ -1,2 +1,2 @@
 use mydb;
-select * from vuelo where vuelo.origen = "Cancun" || vuelo.destino = "Cancun";
+select numero_vuelo,destino,origen from vuelo where vuelo.origen = "Cancun" || vuelo.destino = "Cancun";
