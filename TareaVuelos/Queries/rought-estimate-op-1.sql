@@ -8,6 +8,6 @@ FROM
 		NATURAL join
 	tripulacion
     WHERE
-		MONTH(fecha) = 1 && cargo = 'Piloto'
+		MONTH(fecha) = 2 && cargo = 'Piloto'
 GROUP BY codigo;
 
