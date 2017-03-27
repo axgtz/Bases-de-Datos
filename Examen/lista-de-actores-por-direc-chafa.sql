@@ -1,0 +1,2 @@
+use examen;
+Select pelicula.nombre, pelicula_has_actor.titulo , pelicula_has_actor.nombre FROM Pelicula cross join pelicula_has_actor where PELICULA.titulo = pelicula_has_actor.titulo && pelicula.nombre = "Alfonso Cuaron";
