@@ -1,2 +1,2 @@
 use AEROPUERTO;
-select matricula,tipo,BASE_id_base from avion where avion.BASE_id_base = "1";
+select matricula,tipo from avion where id_base = "1";
